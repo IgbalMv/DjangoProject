@@ -8,4 +8,6 @@ def index(request):
 
 
 def contact(request):
+
     return render(template_name='contact.html',request=request)
+
